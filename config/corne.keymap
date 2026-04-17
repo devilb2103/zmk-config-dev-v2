@@ -14,7 +14,7 @@
                 // Cmd/Win + Enter + E → soft off. 150ms window, must be idle
                 // for 200ms first to avoid mid-typing accidental locks.
                 combo_soft_off {
-                        timeout-ms = <150>;
+                        timeout-ms = <300>;
                         require-prior-idle-ms = <200>;
                         key-positions = <36 39 3>;
                         bindings = <&soft_off>;
