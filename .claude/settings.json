@@ -4,7 +4,17 @@
       "Bash(python3)",
       "Bash(gh api *)",
       "Bash(gh run *)",
-      "Bash(gh search *)"
+      "Bash(gh search *)",
+      "Bash(curl -sL \"https://api.github.com/repos/mctechnology17/zmk-nice-oled/contents/boards/shields/nice_oled/widgets\")",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); [print\\(i['name']\\) for i in d if isinstance\\(i,dict\\)]\")",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/mctechnology17/zmk-nice-oled/main/boards/shields/nice_oled/widgets/layer.c\")",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/mctechnology17/zmk-nice-oled/main/boards/shields/nice_oled/custom_status_screen.c\")",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/mctechnology17/zmk-nice-oled/main/boards/shields/nice_oled/Kconfig.defconfig\")",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/mctechnology17/zmk-nice-oled/main/boards/shields/nice_oled/widgets/screen.c\")",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/mctechnology17/zmk-nice-oled/main/boards/shields/nice_oled/widgets/screen.h\")",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/mctechnology17/zmk-nice-oled/main/boards/shields/nice_oled/widgets/util.h\")",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/mctechnology17/zmk-nice-oled/main/boards/shields/nice_oled/widgets/util.c\")",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/mctechnology17/zmk-nice-oled/main/README.md\")"
     ]
   }
 }
