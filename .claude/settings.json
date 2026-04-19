@@ -14,7 +14,17 @@
       "Bash(curl -sL \"https://raw.githubusercontent.com/mctechnology17/zmk-nice-oled/main/boards/shields/nice_oled/widgets/screen.h\")",
       "Bash(curl -sL \"https://raw.githubusercontent.com/mctechnology17/zmk-nice-oled/main/boards/shields/nice_oled/widgets/util.h\")",
       "Bash(curl -sL \"https://raw.githubusercontent.com/mctechnology17/zmk-nice-oled/main/boards/shields/nice_oled/widgets/util.c\")",
-      "Bash(curl -sL \"https://raw.githubusercontent.com/mctechnology17/zmk-nice-oled/main/README.md\")"
+      "Bash(curl -sL \"https://raw.githubusercontent.com/mctechnology17/zmk-nice-oled/main/README.md\")",
+      "Bash(curl -sL --max-time 15 \"https://developer.apple.com/accessories/\")",
+      "Read(//private/tmp/**)",
+      "Bash(pdftotext -layout apple_adg.pdf apple_adg.txt)",
+      "Bash(python3 -c \"import pypdf\")",
+      "Bash(python3 -c \"import PyPDF2\")",
+      "Bash(python3 -c \"import pdfplumber\")",
+      "Bash(brew list *)",
+      "Bash(pip3 install *)",
+      "Bash(python3 -c \"import pypdf; print\\('ok'\\)\")",
+      "Read(//tmp/**)"
     ]
   }
 }
